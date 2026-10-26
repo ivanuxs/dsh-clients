@@ -1,0 +1,22 @@
+# Lo que NUNCA se publica: claves, binarios firmados y contraseñas.
+*.keystore
+*.jks
+*.apk
+*.aab
+*.idsig
+.env
+.env.*
+
+# Salida del generador (configuración de UN servidor concreto).
+salida/
+android/salida/
+
+# Restos de compilación.
+build/
+.gradle/
+node_modules/
+local.properties
+
+# Basura del sistema.
+.DS_Store
+*~
